@@ -1,0 +1,12 @@
+<widget id="com.shono.demo" version="0.0.1">
+<name>KeepVisting</name>
+<description>
+</description>
+<author email="adityaganguly38@yahoo.co.in">
+Aditya
+</author>
+<content src="index.html" />
+<access origin="*" />
+<preference name="Fullscreen" value="true" />
+<preference name="WebViewBounce" value="true" />
+</widget>
