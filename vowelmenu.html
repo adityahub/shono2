@@ -1,0 +1,233 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Shono</title>
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" type="image/x-icon" href="images/fav-icon.png" />
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+		<!----webfonts---->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+		<!----//webfonts---->
+		 <!----Calender -------->
+		  <script src= "js/jquery.min.js"></script>
+		  <link rel="stylesheet" href="css/clndr.css" type="text/css" />
+		  <script src="js/underscore-min.js"></script>
+		  <script src= "js/moment-2.2.1.js"></script>
+		  <script src="js/clndr.js"></script>
+		  <script src="js/site.js"></script>
+		  <!----End Calender -------->
+		  <!-- bxSlider Javascript file -->
+			<script src="js/jquery.bxslider.min.js"></script>
+			<!-- bxSlider CSS file -->
+			<link href="css/jquery.bxslider.css" rel="stylesheet" />
+			<script>
+				$(document).ready(function(){
+					  $('.bxslider').bxSlider();
+				});
+			</script>
+		  <!--//bxSlider Javascript file -->
+		  <!----chat-settings-drop-down-menu---->
+		  <script src="js/dropit.js"></script>
+		  <script>
+		  	$(document).ready(function() {
+			    $('.menu').dropit({ action: 'hover' });
+			});
+		  </script>
+		   <!----//chat-settings-drop-down-menu---->
+			 <link href="css/perfect-scrollbar.css" rel="stylesheet">
+		      <script src="js/jquery.mousewheel.js"></script>
+		      <script src="js/perfect-scrollbar.js"></script>
+		      <script>
+			      jQuery(document).ready(function ($) {
+			        "use strict";
+			        $('#Default').perfectScrollbar();
+			      });
+			    </script>
+			</script>
+			<!----//chat-settings-drop-down-menu---->
+			<!-- //the jScrollPane script -->
+			<!-- video player -->
+			 <link href="css/video-player.css" rel="stylesheet" type="text/css" />
+			 <script type="text/javascript" src="js/popcorn.js"></script>
+			<script type="text/javascript" src="js/popcorn.player.js"></script>
+			<script type="text/javascript" src="js/popcorn.jplayer.js"></script>
+			<script type="text/javascript" src="js/popcorn.subtitle.js"></script>
+			  <script type="text/javascript">
+			//<![CDATA[
+			  $(document).ready(function(){
+			
+				var p = Popcorn.jplayer('#jquery_jplayer_1', {
+					media: {
+						m4v: "http://www.jplayer.org/video/m4v/Big_Buck_Bunny_Trailer.m4v",
+						ogv: "http://www.jplayer.org/video/ogv/Big_Buck_Bunny_Trailer.ogv",
+						webmv: "http://www.jplayer.org/video/webm/Big_Buck_Bunny_Trailer.webm",
+						poster: "http://www.jplayer.org/video/poster/Big_Buck_Bunny_Trailer_480x270.png"
+					},
+					options: {
+						swfPath: "js",
+						supplied: "webmv, ogv, m4v",
+						size: {
+							width: "100%",
+							height: "224px",
+							cssClass: "jp-video-360p"
+						},
+						smoothPlayBar: true,
+						keyEnabled: true
+					}
+				})
+				.subtitle({
+					start: 2,
+					end: 6,
+					text: "This text is the Popcorn Subtitle Plugin"
+				})
+				.subtitle({
+					start: 6,
+					end: 10,
+					text: "Working with the Popcorn jPlayer Player Plugin"
+				})
+				.subtitle({
+					start: 10,
+					end: 15,
+					text: "Enabling jPlayer to function with the features of Popcorn"
+				})
+				.subtitle({
+					start: 16,
+					end: 32,
+					text: "Have fun playing with it!"
+				});
+			
+			});
+			//]]>
+			</script>
+			  <!--  End video player -->
+	</head>
+	<body>
+		<!---start-wrap---->
+		<div class="wrap">
+			<!---start-content---->
+			<div class="content">
+				<!---start-left-content---->
+				<div class="left-content">
+					<!---start-left-content-colum1---->
+					<div class="start-left-content-colum1">
+						<!---start-status---->
+						<div class="status-grid">
+							<div class="status-grid-head">
+								
+							</div>
+							<div class="status-people-pic">
+								<img class="stat-people" src="images/status-people-pic.png" title="people-name" />
+								
+								<h2>SHONO</h2>
+								<span></span>
+							</div>
+							<div class="status-corrent">
+								<ul>
+									<li><a class="appont" href="index.html">Learn</a></li>
+									<li><a class="client" href="quizmenu.html">Test</a></li>
+									<li><a class="report" href="form/index.html">Trainers</a></li>
+									<div class="clear"> </div>
+								</ul>
+							</div>
+							<div class="clear"> </div>
+						</div>
+						<!---//End-status---->
+						<div class="clear"> </div>
+						<!---start-chat-sectioin---->
+						<div class="chat-section">
+							<div class="chat-header">
+								<div class="chat-header-left">
+									<span> </span>
+								</div>
+								<div class="chat-header-right">
+									<span class="menu"> 
+										
+									</span>
+								</div>
+								<div class="clear"> </div>
+							</div>
+							<div class="chat-people-grids contentHolder" id="Default">
+								<div class="chat-people-grid">
+									<div class="chat-people-pic-grid">
+										<img class="chat-people-pic" src="images/lessons.png" title="chat-people-name" />
+										
+									</div>
+									<div class="chat-people-message">
+										<h3><a href="#">Lip - Round Vowels</a></h3>
+										<p>Long O, Long U and OO</p>
+									</div>
+									
+									<div class="clear"> </div>
+								</div>
+								<div class="chat-people-grid">
+									<div class="chat-people-pic-grid">
+										<img class="chat-people-pic" src="images/lessons.png" title="chat-people-name" />
+										
+									</div>
+									<div class="chat-people-message">
+										<h3><a href="#">Jaw - Dropped Vowels</a></h3>
+										<p>Long A , Short A, Long I, Ah</p>
+									</div>
+									
+									<div class="clear"> </div>
+								</div>
+								<div class="chat-people-grid">
+									<div class="chat-people-pic-grid">
+										<img class="chat-people-pic" src="images/lessons.png" title="chat-people-name" />
+										
+									</div>
+									<div class="chat-people-message">
+										<h3><a href="#">Open - Smile Vowels</a></h3>
+										<p>Long E, Initial Y</p>
+									</div>
+									
+									<div class="clear"> </div>
+								</div>
+
+								<div class="chat-people-grid">
+									<div class="chat-people-pic-grid">
+										<img class="chat-people-pic" src="images/lessons.png" title="chat-people-name" />
+										
+									</div>
+									
+									
+									<div class="clear"> </div>
+								</div>
+								
+									<div class="clear"> </div>
+								</div>
+								
+									<div class="clear"> </div>
+								</div>
+								
+									<div class="clear"> </div>
+								</div>
+								<div class="clear"> </div>
+								<div class="chat-loder-grid">
+									<span> </span>
+								</div>
+							</div>
+						</div>
+						<!---//End-chat-sectioin---->
+					</div>
+					<!---//End-left-content-colum1---->
+					<!---start-left-content-colum2---->
+					
+		<!---start-copy-right---->
+		<div class="copy-right">
+			<p>Copyright Shono </p>
+		</div>
+		<!---//End-copy-right---->
+		</div>
+		<!---End-wrap---->
+	</body>
+</html>
+
